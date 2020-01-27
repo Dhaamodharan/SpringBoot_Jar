@@ -18,7 +18,7 @@ public class Application {
     @RequestMapping(value = "/name", produces = "text/html", method = RequestMethod.POST)
     @ResponseBody
     public String name(@RequestParam("name") String name) {
-        return "<html><body><h1>Hello " + name + "</h1>Welcome to Boxfuse!</body></html>";
+        return "<html><body><h1>Hello " + name + "Welcome to ExDevOps!</h1></body></html>";
     }
 
     public static void main(String[] args) {
